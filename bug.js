@@ -1,0 +1,1 @@
+The Firebase SDK might throw an error if the client is offline and there is no cached data to return.  This can manifest as a silent failure or unexpected behavior.  For example, if you're using `onSnapshot` to listen to a collection, you might not receive any updates until the client is back online, or the listener might stop working entirely.
